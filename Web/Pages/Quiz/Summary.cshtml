@@ -1,8 +1,15 @@
-﻿@page
+﻿@page "{quizId:int}"
 @model BackendLab01.Pages.Summary
 @{
-    ViewData["Title"] = "summary";
-    Layout = "~/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Quiz Summary";
 }
 
-<H3>@ViewData["Title"]</H3>
+<h1>Podsumowanie quizu</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Wynik</h2>
+        <p><strong>Ilość pytań:</strong> @Model.TotalQuestions</p>
+        <p><strong>Poprawne odpowiedzi:</strong> @Model.CorrectAnswersCount</p>
+    </div>
+</div>

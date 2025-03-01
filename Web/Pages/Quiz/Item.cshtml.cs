@@ -42,7 +42,7 @@ namespace BackendLab01.Pages
     
             if (itemId > quiz.Items.Count)
             {
-                return RedirectToPage("Summary");
+                return RedirectToPage("Summary", new { quizId = quizId });
             }
 
             var quizItem = quiz.Items.ElementAtOrDefault(itemId - 1);
@@ -62,7 +62,28 @@ namespace BackendLab01.Pages
 
         public IActionResult OnPost()
         {
-            return RedirectToPage("Item", new {quizId = QuizId, itemId = ItemId + 1});
+            var quiz = _userService.FindQuizById(QuizId);
+            if (quiz == null)
+            {
+                return NotFound("Quiz not found.");
+            }
+
+            var quizItem = quiz.Items.ElementAtOrDefault(ItemId - 1);
+            if (quizItem == null)
+            {
+                return NotFound("Quiz item not found.");
+            }
+
+            int userId = 1;
+            _userService.SaveUserAnswerForQuiz(QuizId, userId, quizItem.Id, UserAnswer.Trim());
+            
+            if (ItemId >= quiz.Items.Count)
+            {
+                return RedirectToPage("Summary", new { quizId = QuizId });
+            }
+    
+            return RedirectToPage("Item", new { quizId = QuizId, itemId = ItemId + 1 });
         }
+
     }
 }
