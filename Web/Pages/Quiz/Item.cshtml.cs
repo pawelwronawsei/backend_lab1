@@ -29,19 +29,35 @@ namespace BackendLab01.Pages
         [BindProperty]
         public int ItemId { get; set; }
         
-        public void OnGet(int quizId, int itemId)
+        public IActionResult OnGet(int quizId, int itemId)
         {
             QuizId = quizId;
             ItemId = itemId;
+
             var quiz = _userService.FindQuizById(quizId);
-            var quizItem = quiz?.Items[itemId - 1];
-            Question = quizItem?.Question;
-            Answers = new List<string>();
-            if (quizItem is not null)
+            if (quiz == null)
             {
-                Answers.AddRange(quizItem?.IncorrectAnswers);
-                Answers.Add(quizItem?.CorrectAnswer);
+                return NotFound("Taki quiz nie istnieje.");
             }
+    
+            if (itemId > quiz.Items.Count)
+            {
+                return RedirectToPage("Summary");
+            }
+
+            var quizItem = quiz.Items.ElementAtOrDefault(itemId - 1);
+            if (quizItem == null)
+            {
+                return NotFound("Taki element nie istnieje.");
+            }
+
+            Question = quizItem.Question;
+            Answers = new List<string>(quizItem.IncorrectAnswers)
+            {
+                quizItem.CorrectAnswer
+            };
+
+            return Page();
         }
 
         public IActionResult OnPost()
