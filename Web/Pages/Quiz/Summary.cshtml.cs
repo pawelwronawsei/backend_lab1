@@ -16,7 +16,7 @@ public class Summary : PageModel
     public int CorrectAnswersCount { get; set; }
     public int TotalQuestions { get; set; }
 
-    public IActionResult OnGet(int quizId)
+    public IActionResult OnGet(int quizId, int itemId)
     {
         var quiz = _userService.FindQuizById(quizId);
         if (quiz == null)

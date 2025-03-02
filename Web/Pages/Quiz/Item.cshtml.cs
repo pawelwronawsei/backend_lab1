@@ -42,7 +42,7 @@ namespace BackendLab01.Pages
     
             if (itemId > quiz.Items.Count)
             {
-                return RedirectToPage("Summary", new { quizId = quizId });
+                return RedirectToPage("Summary", new { quizId = quizId, itemId = itemId });
             }
 
             var quizItem = quiz.Items.ElementAtOrDefault(itemId - 1);
