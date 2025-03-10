@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AokPCAAU2wk=",
+  "dgSpecHash": "GUIVWYda3GE=",
   "success": true,
   "projectFilePath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,11 @@
     "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\9.0.2\\microsoft.aspnetcore.signalr.client.core.9.0.2.nupkg.sha512",
     "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\9.0.2\\microsoft.aspnetcore.signalr.common.9.0.2.nupkg.sha512",
     "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\9.0.2\\microsoft.aspnetcore.signalr.protocols.json.9.0.2.nupkg.sha512",
+    "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
+    "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
+    "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\intel-i7\\.nuget\\packages\\microsoft.extensions.features\\9.0.2\\microsoft.extensions.features.9.0.2.nupkg.sha512",

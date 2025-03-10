@@ -1,6 +1,10 @@
+using ApplicationCore.Commons.Repository;
+using ApplicationCore.Models;
 using BackendLab01;
 using BlazorChat;
 using BlazorChat.Components;
+using Infrastructure.Memory.Generators;
+using Infrastructure.Memory.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +13,8 @@ builder.Services.AddSignalR();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddTransient<IGenericGenerator<int>,IntGenerator>();
+builder.Services.AddSingleton<IGenericRepository<ChatUser, int>,MemoryGenericRepository<ChatUser, int>>();
 builder.Services.AddSingleton<IChatUserService, ChatUserService>();
 
 var app = builder.Build();

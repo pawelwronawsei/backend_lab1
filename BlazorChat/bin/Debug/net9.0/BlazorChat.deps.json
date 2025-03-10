@@ -9,6 +9,7 @@
       "BlazorChat/1.0.0": {
         "dependencies": {
           "ApplicationCore": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.SignalR.Client": "9.0.2"
         },
         "runtime": {
@@ -77,6 +78,44 @@
           "Microsoft.AspNetCore.SignalR.Common": "9.0.2"
         }
       },
+      "Microsoft.EntityFrameworkCore/7.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.3",
+          "Microsoft.Extensions.Caching.Memory": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.2",
+          "Microsoft.Extensions.Logging": "9.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.323.6302"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.3": {
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "7.0.3.0",
+            "fileVersion": "7.0.323.6302"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.3": {},
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.2"
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Options": "9.0.2",
+          "Microsoft.Extensions.Primitives": "9.0.2"
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
@@ -115,6 +154,18 @@
       "ApplicationCore/1.0.0": {
         "runtime": {
           "ApplicationCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "ApplicationCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3"
+        },
+        "runtime": {
+          "Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -176,6 +227,41 @@
       "sha512": "sha512-++g5BdJt9T53twDY+yZQUORRiY1Ohhp9tQFm5XMn/4A0O/ZfmYOBLHHV57+s++KtTrKhJ2+pvy3+f+A/TTDefA==",
       "path": "microsoft.aspnetcore.signalr.protocols.json/9.0.2",
       "hashPath": "microsoft.aspnetcore.signalr.protocols.json.9.0.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6XUI2YGoaLMoP9KGaqWmmd4B2n5bpQbXrVRpH20Et3YjQ0Rn3Ia6HM/ANcSq9rBfjfUySgo9SwUZgQ4m4PF3LQ==",
+      "path": "microsoft.entityframeworkcore/7.0.3",
+      "hashPath": "microsoft.entityframeworkcore.7.0.3.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0NaFBZykUlQHknddRuKY4v+MFZX/AW+v2V85dgj7abIlt+kL3GWa7QNH5S1084VLf1u+dq1SnhZsOvykc3Y0sA==",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.3",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CLyRWFLwaOUZNPEia/aBMzFxZqm/ITKt3B+yUFtrg4Ys5VF3n2gvneuItC9IhpeOcjfdSgu/yUKf8y/IsNHs5A==",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.3",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IeimUd0TNbhB4ded3AbgBLQv2SnsiVugDyGV1MvspQFVlA07nDC7Zul7kcwH5jWN3JiTcp/ySE83AIJo8yfKjg==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpidBs2KCE2gw1JrD0quHE72kvCaI3xFql5/Peb2GRtUuZX+dYPoK/NTdVMiM67Svym0M0Df9A3xyU0FbMQhHw==",
+      "path": "microsoft.extensions.caching.memory/7.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.2": {
       "type": "package",
@@ -241,6 +327,11 @@
       "hashPath": "system.threading.channels.9.0.2.nupkg.sha512"
     },
     "ApplicationCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

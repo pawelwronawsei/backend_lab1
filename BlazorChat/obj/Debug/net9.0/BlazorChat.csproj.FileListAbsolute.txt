@@ -87,3 +87,7 @@ C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\obj\Debug\net9.0\Bla
 C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\obj\Debug\net9.0\ref\BlazorChat.dll
 C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\bin\Debug\net9.0\ApplicationCore.dll
 C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\bin\Debug\net9.0\ApplicationCore.pdb
+C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\intel-i7\RiderProjects\wsei-backend-lab\BlazorChat\bin\Debug\net9.0\Infrastructure.pdb
