@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj": {}
+    "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\BlazorChat\\BlazorChat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\intel-i7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\pawel.wrona\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\intel-i7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\pawel.wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,7 +28,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,20 +95,20 @@
         }
       }
     },
-    "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj": {
+    "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\BlazorChat\\BlazorChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
+        "projectUniqueName": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\BlazorChat\\BlazorChat.csproj",
         "projectName": "BlazorChat",
-        "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\BlazorChat\\BlazorChat.csproj",
-        "packagesPath": "C:\\Users\\intel-i7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\BlazorChat\\obj\\",
+        "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\BlazorChat\\BlazorChat.csproj",
+        "packagesPath": "D:\\Users\\pawel.wrona\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\BlazorChat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\intel-i7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\pawel.wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -118,18 +117,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -178,21 +176,21 @@
         }
       }
     },
-    "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\intel-i7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "D:\\Users\\pawel.wrona\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\intel-i7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\pawel.wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -202,23 +200,22 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\backend_lab1\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
