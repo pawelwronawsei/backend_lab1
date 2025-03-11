@@ -10,4 +10,6 @@ public class Quiz(int id, List<QuizItem> items, string title) : IIdentity<int>
     public string Title { get; } = title;
 
     public List<QuizItem> Items { get; } = items;
+    public string Username { get; set; }
+    public string ConnectionId { get; set; }
 }

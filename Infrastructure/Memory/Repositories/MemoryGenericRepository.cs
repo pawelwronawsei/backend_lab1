@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Commons.Repository;
 using ApplicationCore.Commons.Specification;
+using ApplicationCore.Models.QuizAggregate;
 using Infrastructure.Memory.Generators;
 
 namespace Infrastructure.Memory.Repositories;
@@ -43,9 +44,9 @@ public class MemoryGenericRepository<T, K>:IGenericRepository<T, K> where T: cla
         }
     }
 
-    public List<T> FindAll()
+    public IEnumerable<Quiz> FindAll()
     {
-        return _data.Values.ToList();
+        return (IEnumerable<Quiz>)_data.Values.ToList();
     }
 
     public T Add(T entity)
